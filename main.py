@@ -5,6 +5,7 @@
 import dotenv, os
 from ftplib import FTP
 from src.download import download_arquivos
+from src.transforma import extrai_arquivos
 
 # =============================================================================
 # CONSTANTES
@@ -47,6 +48,7 @@ def fluxo_download() -> None:
 
 def main() -> None:
     fluxo_download()
+    extrai_arquivos()
     return None
 
 
