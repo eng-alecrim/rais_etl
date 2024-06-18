@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.10"
 python-dotenv = "^1.0.1"
 black = "^24.4.2"
+py7zr = "^0.21.0"
 
 
 [build-system]
